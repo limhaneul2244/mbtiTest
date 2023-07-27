@@ -21,6 +21,7 @@ let result = {
 }
 let num = 1;
 
+$('#sns').hide();
 function start () {
   $('.start').hide();
   $('.question').show();
@@ -58,6 +59,7 @@ function nextNum () {
     $('#JP').val() < 2 ? mbti += 'P' : mbti += 'J';
 
     // 결과 설명
+    $('#sns').show();
     $('#img').attr('src', result[mbti]['img']);
     $('#animal').html(result[mbti]['animal']);
     $('#explain').html(result[mbti]['explain']);
