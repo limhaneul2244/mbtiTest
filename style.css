@@ -1,0 +1,28 @@
+body {
+  color: #fff;
+}
+
+.container {
+  background: #1E1F35;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  display: none;
+}
+
+.result {
+  display: none;
+  text-align: center;
+}
+
+.result  img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
